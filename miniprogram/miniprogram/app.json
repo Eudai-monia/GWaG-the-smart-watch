@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/user/user",
+    "pages/oral/oral",
+    "pages/storage/storage",
+    "pages/assessment/index"
+ 
+  ],
+  "tabBar": {
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "image/up0.png",
+        "selectedIconPath": "image/up1.png",
+        "text": "上传"
+      },
+      
+      {
+        "pagePath": "pages/oral/oral",
+        "iconPath": "image/speak0.png",
+        "selectedIconPath": "image/speak1.png",
+        "text": "口语"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "image/home0.png",
+        "selectedIconPath": "image/home1.png",
+        "text": "账户"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "GWaG英语手表",
+    "navigationBarTextStyle": "black"
+  },
+  "requiredBackgroundModes": [
+    "audio"],
+    "plugins": {
+      "ihearing-eval": {
+        "version": "0.0.6",
+        "provider": "wx63d6102e26f0a3f8"
+      }
+    },
+    "sitemapLocation": "sitemap.json"
+}

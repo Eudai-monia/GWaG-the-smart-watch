@@ -1,0 +1,39 @@
+@import "../../lib/weui.wxss";
+.index {
+  margin-top: 15px;
+  
+}
+.weui-cell_input {
+  padding-top: 0;
+  padding-bottom: 0;
+
+}
+.weui-input {
+  height: 2.58823529em;
+  min-height: 2.58823529em;
+  line-height: 2.58823529em;
+  
+}
+.button{
+  height: 10rem;
+  width: 10rem;
+  border-radius: 30rem;
+  background-color: #3399FF;
+  margin-top:20rpx;
+  margin-bottom: 100rpx;
+  border: 1px solid black; 
+  
+}
+.text{
+  font-size: 90rpx;
+  position: relative;
+  margin-top: 50rpx;
+  font-weight: 1000;
+  color:white;
+  text-shadow: 0 1px 1px black;
+}
+.title{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+}

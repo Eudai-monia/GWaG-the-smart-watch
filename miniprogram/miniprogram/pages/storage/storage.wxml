@@ -1,0 +1,5 @@
+<!--库的展示功能 -->
+<button class="delete" type="warn" bindtap="delete">删除所有数据</button>
+<view  wx:for="{{words}}" class="form">
+   <text class="words"> {{item.word}}</text>
+</view>

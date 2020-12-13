@@ -1,0 +1,52 @@
+
+<view class='index-contier'>
+  <view class="index-center">
+    <button class="icon" bindtap="check">
+      <view class="iconinner">✓</view>
+    </button>
+      <view class="check">戳我打卡</view>
+      <view class="logo" >
+      <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+    ></button>
+    </view>
+    <view id="userinfo2" wx:if="{{login}}" class="nickname">
+    欢迎,{{userNickname}}
+    </view>
+    <view id="userinfo2" wx:if="{{!login}}" class="nickname">
+    {{userNickname}}
+    </view>
+  </view>
+</view>
+<view class='inform'>
+  <view class="item-box">
+    <view class="items">
+      <view class="item">
+        <view class="inner txt">
+          <image class="item-icon" ></image>
+          <i> 已打卡</i>
+          <span class="item-data">
+            <i class="rankpace"> {{day}}天</i>
+          </span>
+        </view>
+      </view>
+      <view class="item" bindtap="storage">
+        <view class="inner txt">
+          <image class="item-icon"></image>
+          <i> 查看我的库</i>
+        </view>
+      </view>
+
+ 
+      <view class="item" bindtap="connect">
+        <view class="inner txt">
+          <image class="item-icon" ></image>
+          <i> 联系我们</i>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

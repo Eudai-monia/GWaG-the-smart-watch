@@ -1,0 +1,40 @@
+/**index.wxss**/
+
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 156rpx 0;
+}
+.text{
+  font-size: 45rpx;
+  display: flex;
+  justify-content: center; 
+  align-items:center; 
+  margin-top: 80rpx;
+  font-weight: 1000;
+  color:white;
+  text-shadow: 0 1px 1px black;
+}
+.grade-text {
+  background-image: linear-gradient(-141deg, #3399ff 0%, #3366ff 100%);
+  border-radius: 30rem;
+  height: 10rem;
+  width: 10rem;
+  font-family: 微软雅黑;
+  font-size: 26rpx;
+  color: #FFFFFF;
+  border: 1px solid black; 
+  padding: 9rpx 21rpx 9rpx 21rpx;
+
+
+}
+.unit-text {
+  font-family: PingFangSC-Medium;
+  font-size: 70rpx;
+  color: #086A64;
+  line-height: 80rpx;
+}
+
+

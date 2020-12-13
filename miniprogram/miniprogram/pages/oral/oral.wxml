@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<button bindtap="tapit" class="grade-text">
+  <text class="text">点击显示五个随机单词</text>
+
+  </button>
+<view class="container">
+
+
+
+  <view class="item-list">
+
+    <navigator class="panel" wx:for="{{newlist}}" wx:key="index" url="/pages/assessment/index?mode=word&&index={{item[1][0]}}" >
+      <list-panel content="{{item[0].content}}" score="{{item[0].score}}">
+      </list-panel>
+    </navigator>
+
+  </view>
+
+
+</view>

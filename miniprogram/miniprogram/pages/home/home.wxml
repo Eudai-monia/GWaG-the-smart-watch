@@ -1,0 +1,56 @@
+<form bindsubmit="bindsub">
+<view class="title">请输入待记忆单词</view>
+<view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" name="one" placeholder="单词输入框1"  value="{{input}}"/>
+      </view>
+</view>
+<view class="weui-cells weui-cells_after-title"  >
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" name="two"placeholder="单词输入框2"value="{{input}}"/>
+      </view>
+</view>
+<view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  name="three"placeholder="单词输入框3"value="{{input}}"/>
+      </view>
+</view>
+<view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" name="four" placeholder="单词输入框4"value="{{input}}"/>
+      </view>
+</view>
+<view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  name="five"placeholder="单词输入框5"value="{{input}}"/>
+      </view>
+</view>
+<view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  name="six"placeholder="单词输入框6"value="{{input}}"/>
+      </view>
+</view>
+<view class="weui-cells weui-cells_after-title" >
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  name="seven"placeholder="单词输入框7"value="{{input}}"/>
+      </view>
+</view>
+<view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" name="eight" placeholder="单词输入框8"value="{{input}}"/>
+      </view>
+</view>
+<view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  name="nine"placeholder="单词输入框9"value="{{input}}"/>
+      </view>
+</view>
+<view class="weui-cells weui-cells_after-title" >
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  name="ten"placeholder="单词输入框10"value="{{input}}"/>
+      </view>
+</view>
+<button class="button" form-type="submit">
+  <view class="text">上传!</view>
+</button>
+</form>

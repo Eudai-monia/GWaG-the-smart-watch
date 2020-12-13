@@ -1,0 +1,19 @@
+.form{
+  font-size:60rpx;
+  padding: 0 6px;
+
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30rpx;
+  border-top: 2rpx solid #eee;
+  height: 100rpx;
+  line-height: 120rpx;
+  overflow: hidden;
+}
+.words{
+  color:white;
+}
+page {
+  background-color: #3399FF;
+} 
